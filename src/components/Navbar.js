@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Navbar.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 // import data from "../data/data.json";
 // console.log(data.logo);
@@ -36,35 +36,35 @@ function Navbar() {
   return (
     <div className="nav">
       <div className="logo">
-        <Link to="/" id="logoImage">
+        <a href="/" id="logoImage">
           {/* <img id="logoImage" src={data.logo} alt="." /> */}
           {logo}
-        </Link>
+        </a>
       </div>
-      <Link to="/miphones" className="navlinks">
+      <a href="/miphones" className="navlinks">
         Mi Phones
-      </Link>
-      <Link to="/redmiphones" className="navlinks">
+      </a>
+      <a href="/redmiphones" className="navlinks">
         Redmi Phones
-      </Link>
-      <Link to="/tv" className="navlinks">
+      </a>
+      <a href="/tv" className="navlinks">
         TV
-      </Link>
-      <Link to="/laptops" className="navlinks">
+      </a>
+      <a href="/laptops" className="navlinks">
         Laptops
-      </Link>
-      <Link to="/lifestyle" className="navlinks">
+      </a>
+      <a href="/lifestyle" className="navlinks">
         Fitness & Lifestyle
-      </Link>
-      <Link to="/home" className="navlinks">
+      </a>
+      <a href="/home" className="navlinks">
         Home
-      </Link>
-      <Link to="/audio" className="navlinks">
+      </a>
+      <a href="/audio" className="navlinks">
         Radio
-      </Link>
-      <Link to="/accessories" className="navlinks">
+      </a>
+      <a href="/accessories" className="navlinks">
         Accessories
-      </Link>
+      </a>
 
       <div className="searchbox">
         <input type="text" name="search" placeholder="Search Products" />

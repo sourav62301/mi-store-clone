@@ -13,4 +13,5 @@
 .HotAccessoriesLink:hover {
   text-decoration: none;
   color: orangered;
+  border-bottom: 1px solid orangered;
 }
